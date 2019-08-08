@@ -1,0 +1,107 @@
+[1558488120.692][INFO]: Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})
+[1558488120.692][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1558488121.280][INFO]: [01f06e72c5edcddf3ecea0112afcf013] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--headless", "--disable-dev-shm-usage" ],
+            "binary": "C:\\Users\\eli\\AppData\\Local\\Browser_drivers\\chromedriver.exe",
+            "extensions": [ "Q3IyNAMAAABFAgAAEqwECqYCMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvWDdmDkI9L9YaMoj6HFycTyKTQM+nPxvhJuYtoRE2LZKMzf89GD0ILKvMEHn0PljOIsSpsQeeVIJXO72nT6MTf40Xup+u1IpzH2Wq0JcxCyyY4+X8Hdy+2cuI7JAVGl8i...", "Q3IyNAMAAABFAgAAEqwECqYCMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiEqSLiRQ9fGhPJHRe7dtMk3YjBQ1Jwlz7bhwdIjS3rXrnCxlbuuPkjnd9m2GyntwF2V3LF65WsNZGbxDRJ8Hx4CeiJeGh8CUbozgwbiP8lYeD+5OXlgmwQuEtqSWUI4Nf..." ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--headless", "--disable-dev-shm-usage" ],
+         "binary": "C:\\Users\\eli\\AppData\\Local\\Browser_drivers\\chromedriver.exe",
+         "extensions": [ "Q3IyNAMAAABFAgAAEqwECqYCMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvWDdmDkI9L9YaMoj6HFycTyKTQM+nPxvhJuYtoRE2LZKMzf89GD0ILKvMEHn0PljOIsSpsQeeVIJXO72nT6MTf40Xup+u1IpzH2Wq0JcxCyyY4+X8Hdy+2cuI7JAVGl8i...", "Q3IyNAMAAABFAgAAEqwECqYCMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiEqSLiRQ9fGhPJHRe7dtMk3YjBQ1Jwlz7bhwdIjS3rXrnCxlbuuPkjnd9m2GyntwF2V3LF65WsNZGbxDRJ8Hx4CeiJeGh8CUbozgwbiP8lYeD+5OXlgmwQuEtqSWUI4Nf..." ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1558488121.283][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1558488121.284][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1558488121.621][WARNING]: Public key in crx header is different from key in manifest
+key from header:   pgIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9YN2YOQj0v1hoyiPocXJxPIpNAz6c/G+Em5i2hETYtkozN/z0YPQgsq8wQefQ+WM4ixKmxB55Uglc7vadPoxN/jRe6n67UinMfZarQlzELLJjj5fwd3L7Zy4jskBUaXyKhi9bsZlegAGyoqSW7mrdGHNgJZON0Cr8EcPnS3Q9LGjz/XG7g2e3ZdrWjr2UNceNVdY0m+upjEPpMO0fn+7JHITYuCHvJnK6CX6+YcazZjNPMaq7+UXOSBlRZUQoLA9ehH3nplMBgAIPtoDqwpijKSFRhYNNTP3cI+jQdRUCej/y9xwSHA2xDne+w2vgdgxNoagDZ0EdNWT2YFESTW9NAgMBAAESgAJm1ITmC+XtLkGJ9Xx7aDP4UThT+ifxsQN90xjQ9/B7KcZ+aPIJnmVCPLWLPc3wh9Ae0kiTe0XXnmaceLM21umkKM9omDkHanmYGiiHxq4UKipGPXomTUCooi4OJJjfzL6Hs2ip73ZKbs2gJLpG8eiU5n0Y9QjTd3hMhEwCDvWjVZpQrG+BsaVKYO/WA/5GnJbUDWHum+uL2qbZmD48PEilnPr1cnZUj8ZVv5jZPfYd+GYY8htAyaaRNS0dKBUCewfPtkex9K4KCfV8UARbVV1pav6HGNA2x2so/cT+T6nGgmu/p2VkSbLGqpixVHrVNiQjcwM9HIbWCkJ/6j4EaZAhgvEEEgoQCO9n1kXLbUvFv7e6S8wtW1BLAwQ=
+key from manifest: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCY/LweQBxCq0EGBRPiVmK5QKCLxiH8PFIotymMdWRDOJtv41cCyx/CLCRRSPbOA4NWvNgFX0B9LbPgoALTMWSrkRx/tnaokaBIkBlvugNarPSgUV/NUFAYeDHz0nT6gnClNCBfznvxikDvZYL4Fpw0a5yGdgpXINER75Zo3TJx5wIDAQAB
+generated extension id from header key:   pobmakplkkdeohgangcomllaakoonhfl
+generated extension id from manifest key: bknpehncffejahipecakbfkomebjmokl
+[1558488121.846][WARNING]: Public key in crx header is different from key in manifest
+key from header:   pgIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCISpIuJFD18aE8kdF7t20yTdiMFDUnCXPtuHB0iNLeteucLGVu64+SOd32bYbKe3AXZXcsXrlaw1kZvENEnwfHgJ6Il4aHwJRujODBuI/yVh4P7k5eWCbBC4S2pJZQjg194/J7aMbu9IyZs0A/z6KJmp0Chnxb5TLwO6igIDvHSOiXz7mfiER4ag58HaB4ZT+CxgNrGKAEBWXL0DHUAgcvG4JmyRtUQccPFxTsqVINfomqzxgL1+rMDODC95Z4s9wJhoekJ8h4+EERtGAEDgIDkwW9RS4zTwAVrJdNXhbCUyIFur0iKVT8kKbp/QrvP0R1oqj7xLRVw5Sq3At5Tt0lAgMBAAESgAIYMJBs5VyTiU7LJl9wycrEy4/oA8M0NR5kNgoeme4FXfnlXvHvlb64ssyYZ7WyP4crak624YzAGZddEOBNb3mSPxrKIRkRGxsj63A3xoB1VKR/AN7/YxQIGU/o+dXjBLwlgzlp7pYgP4iVLDKUtFAfjsr56cUWU3/xafjBpZ394SvjfZ4n2ko7Vlol1CGGG8soQ1qeG0dK0f4rQ8xdX2mc2DJ+r6yZDK90ECn9mtsGRVRI55iE6HyJWCqgaOoA+CrODg8B2sHCIaY4dS6f1+/w2vm3EPiGWb5prAL9nh/G2NRaLwvKhHqDS1O+5uAGeA6a80YdShrYgYoCb3ZtcYZAgvEEEgoQlyERMhDGJr07elxQcyzsEFBLAwQ=
+key from manifest: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2lOvaXIYkfXI4FtkpCAkyOWQb3tkiniU+s1SV4yLVeLjZLq+hroMJBEs3e2z+rEz0xQhG0+KOTnyu0Knn3zI+GF+7NcxUttMfRIrYYPvOEZH52DkBvsEU4bkjlY1uA4Avo4DQNpK3EX/8k87LkWeMFuopSaHBkrUoM9eIjCkZfE1LIE2Cx984D5M6FtwYSl1soRPQjH6OV3a0ozvC64X+y27qlVzoEQH1M5QrUPhYGtg3yvIgz0ulhpoq61bKP7ZPqShAga1CwQV6IXbCklqKb+NkhJCm49Fy8rVjYbBhdPy66/y5imh7PSOxi9v6qRgeDq0hOLatE75QDDJBF+ufQIDAQAB
+generated extension id from header key:   gmifkklfjladolcloifebnnjebhkfojd
+generated extension id from manifest key: hiaoiehpkillodoeillmodjcadmfmcbg
+[1558488121.851][INFO]: Launching chrome: "C:\Users\eli\AppData\Local\Browser_drivers\chromedriver.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --headless --ignore-certificate-errors --load-extension="C:\Users\eli\AppData\Local\Temp\scoped_dir8168_11472\extension_pobmakplkkdeohgangcomllaakoonhfl,C:\Users\eli\AppData\Local\Temp\scoped_dir8168_11472\extension_gmifkklfjladolcloifebnnjebhkfojd,C:\Users\eli\AppData\Local\Temp\scoped_dir8168_11472\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\eli\AppData\Local\Temp\scoped_dir8168_27856" data:,
+[1558488121.951][INFO]: [01f06e72c5edcddf3ecea0112afcf013] RESPONSE InitSession ERROR unknown error: Chrome failed to start: was killed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\eli\AppData\Local\Browser_drivers\chromedriver.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+[1558488121.951][DEBUG]: Log type 'driver' lost 2 entries on destruction
+[1558488121.951][DEBUG]: Log type 'browser' lost 0 entries on destruction

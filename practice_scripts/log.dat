@@ -1,0 +1,7 @@
+--------------------------------------------------
+Starting QA for test 0159 - All variations on all browsers for every breakpoints
+Opening browser
+
+****  Checking page accueil French URL  ****
+Pages variation controle sur la page page accueil
+Le texte du H2 "Jusqu’à 900 $ de remise en adhérant à un forfait" correspond a la variation controle
